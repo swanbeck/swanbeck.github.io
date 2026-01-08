@@ -1,14 +1,14 @@
 :root {
-	--grey: rgb(90, 90, 90);
-	/* Columbia Blues: https://visualidentity.columbia.edu/content/colors-1 */
-	--blue1: rgb(2,33,105);
-	--blue2: rgb(0,51,160);
-	--blue3: rgb(0,114,206);
-	--blue4: rgb(108,172,228);
-	--pink1: #F9564F;
- }
+    --grey: rgb(90, 90, 90);
+    --blue1: rgb(2, 33, 105);
+    --blue2: rgb(0, 51, 160);
+    --blue3: rgb(0, 114, 206);
+    --blue4: rgb(108, 172, 228);
+    --pink1: #F9564F;
+}
 
-html, p{
+html,
+p {
     margin: 0;
     padding: 0;
     border: 0;
@@ -20,7 +20,8 @@ html, p{
     letter-spacing: 0.5px;
     color: var(--grey);
 }
-p{
+
+p {
     margin: 0.2em;
 }
 
@@ -35,7 +36,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:  var(--pink1);
+    color: var(--pink1);
 }
 
 i {
@@ -135,6 +136,17 @@ strong {
     padding-right: 30px;
     margin-bottom: 20px;
 }
+
+/* .research-thumb {
+    width: 20em;
+    height: 20em;
+    float: left;
+    margin-top: 7px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    display: block;
+} */
 
 .research-thumb img {
     width: 100%;
